@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <nav class="bg-[#002130] border-gray-200 px-4 lg:px-6 py-2.5">
+            <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
+                <!--Logo + Brand name-->
+                <div class="flex items-center space-x-2">
+                    <img src="ChatGPT_Image_Dec_4__2025__03_43_16_PM-removebg-preview.png" alt="pictures" class="h-15 w-auto">
+                    <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Vellora</span>
+                </div>
+                <!--Shop button-->
+                <div class="flex items-center lg:order-2">
+                   <button class="bg-cyan-500 hover:bg-cyan-700 text-white py-3 px-5 rounded">Shop</button>
+                    <button data-collapse-toggle="mobile-menu-2" type="button" class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu-2" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+                        <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                    </button>
+                </div>
+                <!--Nav links-->
+                <div class="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
+                    <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+                        <li>
+                            <a href="#" class="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white text-xl" aria-current="page">Home</a>
+                        </li>
+                        <li>
+                            <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 text-xl">Shop</a>
+                        </li>
+                        <li>
+                            <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 text-xl">Contact</a>
+                        </li>
+                        <li>
+                            <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 text-xl">Our Story</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!--Hero section-->
+        <section class="bg-[#002130]">
+            <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+                <div class="mr-auto place-self-center lg:col-span-7">
+                    <h1 class="w-full mb-4 text-4xl  tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">Wrap Yourself In Elegance</h1>
+                    <p class="w-full mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">At Vellora, every scent is a story woven from rare botanicals and timeless artistry. Each fragrance is crafted to awaken your senses, stir your soul, and turn fleeting moments into lasting memories.</p>
+                    <a href="#" class="inline-flex items-center justify-center px-0 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700">
+                        Find Out More
+                        <svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                    </a>
+                    <a href="#" class="inline-flex items-center justify-center px-5 py-3 text-center">
+                        <button class="bg-cyan-500 hover:bg-cyan-700 text-white py-3 px-5 rounded">Shop</button>
+                    </a> 
+                </div>
+                <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
+                    <img src="WhatsApp Image 2025-12-04 at 17.01.43_0782bad7.jpg" alt="mockup">
+                </div>                
+            </div>
+        </section>
+        <!--product display-->
+        <section class="bg-white py-12">
+            <div class="max-w-6xl mx-auto px-4">
+                <div class="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
+                    <!-- CARD 1 -->
+                    <div class="text-center">
+                        <img src="image 3.jpg" class="w-full rounded-lg mb-4">
+                        <h3 class="text-xl font-semibold">Velvet Bloom</h3>
+                        <p class="text-gray-600 mt-2 text-lg"><i>A Bouquet of Timeless Elegance. Velvet Bloom is a love letter in a bottle. Imagine a garden at peak bloom, drenched in golden hour sunlight.</i></p>
+                    </div>
+
+                    <!-- CARD 2 -->
+                    <div class="text-center">
+                        <img src="image 4.jpg" class="w-full rounded-lg mb-4">
+                        <h3 class="text-xl font-semibold">Cedar Grover</h3>
+                        <p class="text-gray-600 mt-2 text-lg"><i>Rooted in Serenity. Find your center with Cedar Grove. This grounding, earthly fragrance transports you to the heart of a sun-dappled forest.</i></p>
+                    </div>
+
+                    <!-- CARD 3 -->
+                    <div class="text-center">
+                        <img src="image 5.jpg" class="w-full rounded-lg mb-4">
+                        <h3 class="text-xl font-semibold">Ocean Mist</h3>
+                        <p class="text-gray-600 mt-2 text-lg"><i>Awaken your senses with Ocean Mist. This fragrance is a breath of fresh air, capturing the crisp, clean energy of ocean waves crashing against a rugged cliffside.</i></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Added info-->
+        <section class="bg-[#002130] py-16">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
+
+                    <!--left picture-->
+                    <div class="flex justify-center">
+                        <img src="image 2.jpg" class="object-contain w-full rounded-lg mb-4">
+                    </div>
+
+                    <!--Center text-->
+                    <div class="text-center text-white">
+                        <h3 class="text-2xl md: text-5xl font-semibold mb-4">A Fragrance Born of Passion</h3>
+                        <p class="text-gray-200 mb-4">From the heart of our inspiration to your skin - a narrative of devotion bottled into an unforgettable olfactory journey.</p>
+                        <p class="text-gray-200 mb-8">Feel the intensity. Wear the devotion. A fragrance crafted from passion to amplify your own unique fire.</p>
+                        <button class="bg-cyan-500 hover:bg-cyan-700 text-white py-3 px-6 rounded">Shop</button>
+                    </div>
+
+                    <!--Right Image-->
+                    <div class="flex justify-center">
+                        <img src="WhatsApp Image 2025-12-04 at 17.01.43_0782bad7.jpg" class=" object-contain w-full rounded-lg mb-4">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Newsletter-->
+         <section class="bg-white py-4">
+            <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+                <div class="mr-auto place-self-center lg:col-span-7">
+                    <h3 class="w-full mb-4 text-4xl tracking-tight leading-none md:text-5xl xl:text-6xl font-semibold">Subscribe To Our Newletter</h3>
+                    <p class="w-full mb-6 font-light text-gray-600 lg:mb-8 md:text-lg lg:text-xl">At Vellora, every scent is a story woven from rare botanicals and timeless artistry. Each fragrance is crafted to awaken your senses, stir your soul, and turn fleeting moments into lasting memories.</p>
+                    <a href="#" class="inline-flex items-center justify-center px-0 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700">
+                        Find Out More
+                        <svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                    </a>
+                    <a href="#" class="inline-flex items-center justify-center px-5 py-3 text-center">
+                        <button class="bg-cyan-500 hover:bg-cyan-700 text-white py-3 px-6 rounded">Shop</button>
+                    </a> 
+                </div>
+                <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
+                    <img src="image 6.jpg" alt="mockup">
+                </div>                
+            </div>
+        </section>
+    </main>
+    <footer class="p-4 bg-[#002130] sm:p-6">
+        <div class="mx-auto max-w-screen-xl">
+            <div class="md:flex md:justify-between">
+                <div class="mb-6 md:mb-0">
+                    <a href="#" class="flex items-center">
+                        <img src="ChatGPT_Image_Dec_4__2025__03_43_16_PM-removebg-preview.png" class="mr-3 h-8" alt="Vellora" />
+                        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Vellora</span>
+                    </a>
+                </div>
+                <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+                    <div>
+                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Shop</h2>
+                        <ul class="text-gray-600 dark:text-gray-400">
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline">Product</a>
+                            </li>
+                            <li>
+                                <a href="#" class="hover:underline">Cart</a>
+                            </li>
+                        </ul>
+                    </div>
+                <div>
+                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Contact Us</h2>
+                    <ul class="text-gray-600 dark:text-gray-400">
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline ">Email</a>
+                        </li>
+                        <li>
+                            <a href="#" class="hover:underline">Phone Number</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
+                    <ul class="text-gray-600 dark:text-gray-400">
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr class="my-6 border-gray-700 sm:mx-auto lg:my-8" />
+        <div class="sm:flex sm:items-center sm:justify-between">
+            <span class="text-sm text-gray-500 sm:text-center">© 2022 Vellora™. All Rights Reserved.</span>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
